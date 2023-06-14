@@ -14,8 +14,12 @@ import { Component } from "react";
         this.handleNegative.bind(this)
     }
 
+    handlePositive(ev) {
+        console.log ("Click on positive opinion", ev)
+    }
+
     handleNegative(ev) {
-        console.log(" Click on positive opinion", ev);
+        console.log(" Click on negative opinion", ev);
     }
 
     render () {
