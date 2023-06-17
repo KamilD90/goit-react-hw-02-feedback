@@ -1,0 +1,19 @@
+.section {
+  max-width: 1200px;
+  padding: 35px;
+  margin: 50px auto;
+  border-radius: 25px;
+  background-color: white;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(107, 105, 104, 0.89);
+}
+
+.sub__title {
+  font-size: 36px;
+  margin: 50px 0;
+  text-transform: uppercase;
+}

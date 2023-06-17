@@ -1,0 +1,33 @@
+.statList {
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.915);
+}
+
+.statList_item {
+  text-align: left;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+}
+
+.statList__item__name {
+  font-weight: 600;
+}
+
+.statList__item__value {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.subTitle {
+  font-size: 20px;
+  margin: 50px 0;
+  text-transform: uppercase;
+}
